@@ -12,7 +12,7 @@ public class MergeSort {
 			System.out.print(arr[i] + "\t");
 		}
 		
-				// not static method
+		// not static method
 		new MergeSort().PrepareForSorting(arr);
 
 		System.out.println("\n After Sorting");
