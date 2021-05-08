@@ -3,7 +3,7 @@ package dataStructure.GraphTree;
 public class BinaryTreeDemo {
 
 	public static void main(String[] args) {
-		
+				
 		// create root node
 		NodeTree root = new NodeTree(7,null,null);
 		
@@ -16,7 +16,10 @@ public class BinaryTreeDemo {
 		bt.AddNode(newNode, bt.root);
 		}
 		
+		System.out.println("Try found 9");
 		bt.Search(9, bt.root);
+		
+		System.out.println("Try found 15");
 		bt.Search(15, bt.root);
 		
 	}

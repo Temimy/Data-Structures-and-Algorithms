@@ -43,7 +43,7 @@ public class BinaryTree {
 	// Search Method
 
 	public void Search(int value, NodeTree rootExplore) {
-
+		
 		// value is found
 		if (rootExplore.value == value) {
 			System.out.println("Value is founded");
